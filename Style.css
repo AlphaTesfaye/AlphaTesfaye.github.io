@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background: #070707;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.all-container {
+    background: #4b4a4a;
+}
+
+.nav {
+    justify-content: space-around;
+    font-size: x-large;
+    background: #001524;
+    font-weight: 600;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#About {
+    font-size: larger;
+}
+
+#About a {
+    text-decoration: none;
+    color: #96CDFF;
+}
+
+#About li {
+    list-style: none;
+}
+
+.progress_Custom {
+    margin-top: 10px;
+    width: 80%;
+}
+
+.skills {
+    padding-left: 17%;
+
+}
+
+.card-title {
+    color: #070707;
+}
+
+.ContactMe {
+    padding-left: 20px;
+}
+
+.ContactMe a {
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.fa {
+    font-size: xx-large;
+    padding: 10px;
+    margin: 10px;
+    border: solid #fff;
+    border-radius: 20px;
+}
+
+.fa-facebook:hover {
+    color: #1884e9;
+    border: solid #1884e9;
+}
+
+.fa-instagram:hover {
+    color: #f32581;
+    border: solid #f32581;
+}
+
+.fa-envelope:hover {
+    color: #f9f9f9;
+    border: solid rgb(255, 0, 0);
+}
+
+.fa-mobile:hover {
+    border: solid rgb(200, 0, 255);
+}
+
+footer {
+    background: #001524;
+    border-radius: 20px 20px 0 0;
+}
